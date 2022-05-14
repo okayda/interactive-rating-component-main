@@ -1,0 +1,132 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  line-height: 1.6rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rating-parent-container {
+  background-color: hsl(213, 19%, 18%);
+  color: #fff;
+  max-width: 340px;
+  margin: 2rem auto;
+  padding: 1rem 1.8rem 2rem;
+  border-radius: 20px;
+}
+
+.rating-container {
+  display: block;
+}
+
+.rated-container {
+  display: none;
+}
+
+.rating-container .icon-container {
+  display: flex;
+  margin: 1rem 0 2rem;
+}
+
+.rating-container .icon-container img {
+  width: 20px;
+  height: 20px;
+  padding: 0.8rem;
+  margin-right: 0.6rem;
+}
+
+.rating-container .rating-title {
+  margin-bottom: 1.2rem;
+}
+
+.rating-container .rating-discription {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+
+.rating-container .rating-scale {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.rating-container .icon-container .star-icon,
+.rating-container .rating-scale li {
+  background: rgba(124, 135, 152, 0.1);
+  border-radius: 50px;
+}
+
+.rating-container .rating-scale li {
+  margin-left: 0.4rem;
+  padding: 0.7rem 1.2rem;
+  color: hsl(217, 12%, 63%);
+  font-size: 0.8rem;
+}
+
+.rating-container .rating-scale li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.rating-container .rating-scale li.active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-container .rating-scale li:first-child {
+  margin-left: 0;
+}
+
+.rating-container .rating-btn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.rating-container .rating-btn:hover {
+  cursor: pointer;
+}
+
+.rated-container .rated-bg-image {
+  display: block;
+  margin: 1.6rem auto;
+  width: 170px;
+  height: 120px;
+}
+
+.rated-container .scale-result {
+  padding: 0.4rem 1.2rem;
+  text-align: center;
+  border-radius: 30px;
+  background: rgba(124, 135, 152, 0.1);
+  color: hsl(25, 97%, 53%);
+  max-width: 180px;
+  margin: 0 auto 2rem;
+}
+
+.rated-container .rated-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.rated-container .rated-discription {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: hsl(216, 12%, 54%);
+}
