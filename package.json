@@ -1,0 +1,23 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "default": "rating_functionality.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okayda/interactive-rating-component-main.git"
+  },
+  "author": "okayda999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okayda/interactive-rating-component-main/issues"
+  },
+  "homepage": "https://github.com/okayda/interactive-rating-component-main#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
