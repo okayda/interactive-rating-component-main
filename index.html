@@ -11,13 +11,17 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script defer src="rating_functionality.js"></script>
-    <title>Frontend Mentor | Interactive rating component</title>
+    <title>Frontend Mentor | Interactive rating component | okayda</title>
   </head>
   <body>
     <article class="rating-parent-container">
-      <div class="rating-container">
+      <div class="rating-container active">
         <div class="icon-container">
-          <img src="images/icon-star.svg" alt="start icon" class="star-icon" />
+          <img
+            src="images/icon-star.svg"
+            alt="Highlight icon"
+            class="star-icon"
+          />
         </div>
 
         <h2 class="rating-title">How did we do?</h2>
@@ -36,13 +40,15 @@
         </ul>
 
         <button class="rating-btn">SUBMIT</button>
+
+        <p class="err-msg">Make a rating before submitting</p>
       </div>
 
       <div class="rated-container">
         <img
           src="images/illustration-thank-you.svg"
           class="rated-bg-image"
-          alt="credit card icon"
+          alt="thank you for making a rate image"
         />
 
         <p class="scale-result">
